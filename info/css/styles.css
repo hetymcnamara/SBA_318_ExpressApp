@@ -1,0 +1,23 @@
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    border: 20px solid #90efbb; 
+    padding: 10px;
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.compact-image {
+    max-width: 100%;
+    height: auto; 
+}
+
+.animate__animated {
+    animation-duration: 1s; 
+}
